@@ -45,7 +45,5 @@ def itemDelete(event):
 tableWidget.bind("<<TreeviewSelect>>", itemSelector)
 tableWidget.bind("<Delete>", itemDelete)
 
-# item id 
-
 # Run Window
 window.mainloop()
