@@ -7,8 +7,14 @@ window.title("Basic Layouts")
 window.geometry("600x400")
 
 # Create widgets
-label1Widget = ttk.Label(window, text = "Label #1", background = "red")
-label2Widget = ttk.Label(window, text = "Label #2", background = "blue")
+label1Widget = ttk.Label(
+    window, 
+    text = "Label #1", 
+    background = "red")
+label2Widget = ttk.Label(
+    window, 
+    text = "Label #2", 
+    background = "blue")
 
 # Packing
 # label1Widget.pack(side = "left", expand = True, fill = "x") # fill - x, y, both
