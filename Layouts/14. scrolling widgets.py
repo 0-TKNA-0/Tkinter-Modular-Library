@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import ttk
-from random import randint, choice
 
 class ListFrame(ttk.Frame):
     def __init__(self, parent, textData, itemHeight):
@@ -71,8 +70,6 @@ window.geometry("500x400")
 
 textList = [('label', 'button'),('thing', 'click'),('third', 'something'),('label1', 'button'),('label2', 'button'),('label3', 'button'),('label4', 'button')]
 listFrame = ListFrame(window, textList, 100)
-
-
 
 
 # Run window
