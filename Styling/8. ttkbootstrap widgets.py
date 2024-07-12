@@ -64,16 +64,16 @@ ttk.Scale(window, from_ = 0, to = 100, variable = progressInt).pack()
 # module 'PIL.Image' has no attribute 'CUBIC'
 # AttributeError: module 'PIL.Image' has no attribute 'CUBIC'
 
-meter = ttk.Meter(
-	window,
-	amounttotal = 100,
-	amountused = 10,
-	interactive = True,
-	metertype = "semi",
-	subtext = "Text",
-	bootstyle = "danger"
-	)
-meter.pack()
+# meter = ttk.Meter(
+# 	window,
+# 	amounttotal = 100,
+# 	amountused = 10,
+# 	interactive = True,
+# 	metertype = "semi",
+# 	subtext = "Text",
+# 	bootstyle = "danger"
+# 	)
+# meter.pack()
 
 
 # Run window
